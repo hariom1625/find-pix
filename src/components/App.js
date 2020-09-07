@@ -20,8 +20,8 @@ this.setState({ images: response.data.results});
 
 render (){
 return (
-<div className="bg-color">
-  <img className="bck-pic" src={bckgrnd} alt="bck-pic" />
+<div className="bg">
+  <img className="bck-pic img-fluid" src={bckgrnd} alt="bck-pic" />
 
 <div className="ui container search-bar " >
 

@@ -12,6 +12,8 @@ opacity: 0.9;
 
 .search-bar{
 position: absolute;
+margin-left: 0;
+margin-right: 0;
 bottom:100px;
 left: 50px;
 right: 50px;
@@ -20,10 +22,28 @@ opacity: 0.8;
 
 
 }
+.ui.container{
+margin-left: 0;
+margin-right: 0;
+}
 @media(max-width:600px){
 .search-bar{
-bottom:150px;
+  margin-left: 0;
+  margin-right: 0;
+bottom:400px;
 left:0;
 right: 0;
+width:80%;
+}
+.ui.container{
+  margin-left: 0!important;
+  margin-right: 0!important;
+}
+.bck-pic{
+
+
+height: 600px;
+width:100%;
+opacity: 0.9;
 }
 }
